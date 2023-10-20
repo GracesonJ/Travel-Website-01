@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grace Travel </title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- header section starts  -->
+<header>
+    <div id="menu-bar" class="fas fa-bars"></div>
+    <a href="#" class="logo"><span>G</span>race <span>T</span>ravel</a>
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#book">bookings</a>
+        <a href="#packages">packages</a>
+        <a href="#services">services</a>
+        <a href="#gallery">gallery</a>
+        <a href="#review">review</a>
+        <a href="#contact">contact</a>
+    </nav>
+</header>
+<!-- header section ends -->
+<!-- home section starts  -->
+<section class="home" id="home">
+    <div class="content">
+        <h3>Let’s wander where the wifi is weak</h3>
+        <p>A journey of a thousand miles begins with a single step</p>
+    </div>
+    <div class="video-container">
+        <video src="photos/video.mp4" id="video-slider" loop autoplay muted></video>
+    </div>
+</section>
+<!-- home section ends -->
+
+<!-- book section starts  -->
+<section class="book" id="book">
+    <h1 class="heading">
+        <span>b</span>
+        <span>o</span>
+        <span>o</span>
+        <span>k</span>
+        <span class="space"></span>
+        <span>n</span>
+        <span>o</span>
+        <span>w</span>
+    </h1>
+    <div class="row">
+        <div class="image">
+            <img src="photos/bookingphoto.jfif" alt="">
+        </div>
+        <form action="">
+            <div class="inputBox">
+                <h3>place</h3>
+                <input type="text" placeholder="place name">
+            </div>
+            <div class="inputBox">
+                <h3>how many</h3>
+                <input type="number" placeholder="number of guests">
+            </div>
+            <div class="inputBox">
+                <h3>arrivals</h3>
+                <input type="date">
+            </div>
+            <div class="inputBox">
+                <h3>leaving</h3>
+                <input type="date">
+            </div>
+            <input type="submit" class="btn" value="book now">
+        </form>
+    </div>
+</section>
+<!-- book section ends -->
+
+<!-- packages section starts  -->
+<section class="packages" id="packages">
+    <h1 class="heading">
+        <span>p</span>
+        <span>a</span>
+        <span>c</span>
+        <span>k</span>
+        <span>a</span>
+        <span>g</span>
+        <span>e</span>
+        <span>s</span>
+    </h1>
+    <div class="box-container">
+        <div class="box">
+            <img src="photos/kovalam.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> kovalam </h3>
+                <p>Kovalam is an internationally renowned beach with three adjacent crescent beaches. It has been a favourite haunt of tourists since the 1930s. A massive rocky promontory on the beach has created a beautiful bay of calm waters ideal for sea bathing.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> ₹2500.00 <span>₹3000.00</span> </div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="photos/palakkad.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> palakkad </h3>
+                <p>The Rice Granary of Kerala, Palakkad District has diverse sightseeing options like forts, rivers, hills, forests, dams, wildlife sanctuaries, waterfalls, temples and heritage spots</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> ₹2900.00 <span>₹3000.00</span> </div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="photos/munnar.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> munnar </h3>
+                <p>Idukki district is a densely forested, mountainous region in the south Indian state of Kerala. In the north, Anamudi mountain towers over Eravikulam National Park, where the rare, blue Neelakurinji flower blooms every 12 years. Nearby, Munnar is a hill station known for its sprawling tea plantations and Tea Museum. Farther south is the vast, curved Idukki Dam and Periyar National Park, a tiger and elephant reserve</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> ₹2400.00 <span>₹3000.00</span> </div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="photos/kumarakom.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> kumarakom </h3>
+                <p>Kumarakom is a village on Vembanad Lake in the backwaters of Kerala, southern India. It’s laced with canals, where houseboats ply the waters. Kumarakom Bird Sanctuary is home to many species including cuckoos and Siberian storks. Nearby, the Bay Island Driftwood Museum displays wooden sculptures. In the lake, Pathiramanal Island is a haven for rare migratory birds. Ancient Thazhathangady Mosque is east of Kumarakom.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> ₹2000.00 <span>₹3000.00</span> </div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="photos/thekkady.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> thekkady </h3>
+                <p>Thekkady is a town near Periyar National Park, an important tourist attraction in the Kerala state of India. The named Thekkady is derived from the word "thekku" which means teak. Temperatures are lowest in the months of December-January and highest in the months of April-May</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> ₹2700.00 <span>₹3000.00</span> </div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="photos/bekal.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> bekal </h3>
+                <p>Bekal is a small town in the Kasaragod district on the West coast of the state of Kerala, India. Kasaragod is a town located at the Northern extreme of Kerala 16 km south of the town on the National Highway and is the largest and best preserved fort in the whole of Kerala, bordered by beach.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> ₹2800.00 <span>₹3000.00</span> </div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="photos/beaches.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> beaches </h3>
+                <p>Kerala is home to a number of spectacular beaches that will take your breath away. As Kerala is a coastal state, some of the most popular tourist destinations in Kerala are beaches like Kovalam, Varkala, Chowara, Chavakkad, Nattika, Cherai, Kizhunna, Poovar and the list goes on and on. The Kerala coast is replete with exotic resorts and hotels where travellers can spend their time sunbathing, swimming or simply enjoying the stunning view</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> ₹2550.00 <span>₹3000.00</span> </div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="photos/fort_kochi.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> fort kochi </h3>
+                <p>A charming seaside area, Fort Kochi is known for its Dutch, Portuguese, and British colonial architecture, and elaborate bamboo fishing nets at Fort Kochi Beach. St. Francis Church was the original burial site of explorer Vasco da Gama. Upscale eateries and chic cafes serve Keralan specialties, and quaint shops sell cotton clothing and handmade souvenirs. Heritage buildings house contemporary art galleries.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> ₹2500.00 <span>₹3000.00</span> </div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="photos/forts_palaces.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> forts and palaces </h3>
+                <p>Kerala has had a long line of rulers and armies that have shaped the culture and architecture of the State over centuries. Many of the prominent forts and palaces still exist to this day as a reminder of a bygone era. Listed below are all the historical forts and palaces that warrant a visit.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> ₹2000.00 <span>₹3000.00</span> </div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- packages section ends -->
+
+<!-- services section starts  -->
+<section class="services" id="services">
+    <h1 class="heading">
+        <span>s</span>
+        <span>e</span>
+        <span>r</span>
+        <span>v</span>
+        <span>i</span>
+        <span>c</span>
+        <span>e</span>
+        <span>s</span>
+    </h1>
+    <div class="box-container">
+        <div class="box">
+            <i class="fas fa-hotel"></i>
+            <h3>affordable hotels</h3>
+            <p>Kerala Tourism has developed this platform, ‘Where to Stay’, with the intention of helping travellers as well as tourism service providers. The tourism service providers can publish the details of their accommodation units here. The information available here are compiled and published entirely by the respective property owners.</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-utensils"></i>
+            <h3>food and drinks</h3>
+            <p>The staple food of Kerala is greatly influenced by the history and culture of the state. It’s a blend of both vegetarian and non-vegetarian options, in which the latter is prepared a variety of items like fish, poultry and red meat. Rice, fish, and coconut are the most common ingredients of almost all Kerala famous food. The flavours are enhanced with chillies, curry leaves, mustard seeds, turmeric tamarind, black pepper, cardamom, clove, ginger, cinnamon, and asafoetida.</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-bullhorn"></i>
+            <h3>safty guide</h3>
+            <p>Kerala is a place of wonder and just as how the beauty of it might lure you, one must also be careful of the risks that accompany adventures. Be mindful of the rules and precautions and an enriching experience is guaranteed. The aim of Safe Tourism is to ensure the safety of each and every traveller. We present you with the ideas and precautions one must keep in mind while exploring kerala. Every new traveller might not be aware of the nature, climate and certain aspects of a place unless he is guided through. Follow the guidelines and we assure you a safe and secure experience in the 'God's own country'.</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-globe-asia"></i>
+            <h3>around the world</h3>
+            <p>Kerala, a state situated on the tropical Malabar Coast of southwestern India, is one of the most popular tourist destinations in the country. Named as one of the ten paradises of the world by National Geographic Traveler, Kerala is famous especially for its ecotourism initiatives and beautiful backwaters. Its unique culture and traditions, coupled with its varied demography, have made Kerala one of the most popular tourist destinations in the world. Growing at a rate of 13.31%, the tourism industry is a major contributor to the state's economy.</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-plane"></i>
+            <h3>fastest travel</h3>
+            <p>Verdant coastlines, languid backwaters, lush tea gardens and the smell of fresh-grown spices wafting in the air—Kerala is a sliver of tropical paradise that has attracted tourists from all over the world. Whether you want to roam the crowded streets of Kochi, a melting-pot of Indian and colonial traditions, or savour a quiet cup of tea at Munnar, Kerala’s favourite hill station, or simply walk down the glorious palm-fringed beaches of Kovalam, sampling seafood, Kerala has something for everybody!
+
+                Don’t leave Kerala before you</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-hiking"></i>
+            <h3>adventures</h3>
+            <p>India's most happening destination, Kerala offers its visitors opportunities and experiences to unleash their adventure spirit.
+
+                Apart from its picture-postcard beauty, Kerala is also an ideal destination for adventure sports. This beautiful land has in store an array of adventure packed destinations; be it the high altitude mountain ranges, gushing rivers, deep dark forests or the vast stretches of the sea.
+                
+                Aquatic sports, wildlife treks and paragliding are some of the most sought after activities as part of adventure tourism in Kerala.</p>
+        </div>
+    </div>
+</section>
+<!-- services section ends -->
+
+<!-- gallery section starts  -->
+<section class="gallery" id="gallery">
+    <h1 class="heading">
+        <span>g</span>
+        <span>a</span>
+        <span>l</span>
+        <span>l</span>
+        <span>e</span>
+        <span>r</span>
+        <span>y</span>
+    </h1>
+    <div class="box-container">
+        <div class="box">
+            <img src="photos/1.jfif" alt="image">
+        </div>
+        <div class="box">
+            <img src="photos/2.jfif" alt="image">
+        </div>
+        <div class="box">
+            <img src="photos/3.jfif" alt="image">
+        </div>
+        <div class="box">
+            <img src="photos/4.jfif" alt="image">
+        </div>
+        <div class="box">
+            <img src="photos/5.jfif" alt="image">
+        </div>
+        <div class="box">
+            <img src="photos/6.jfif" alt="image">
+        </div>
+        <div class="box">
+            <img src="photos/7.jfif" alt="image"> 
+        </div>
+        <div class="box">
+            <img src="photos/8.jfif" alt="image">
+        </div>
+        <div class="box">
+            <img src="photos/12.jfif" alt="image">
+        </div>
+    </div>
+</section>
+<!-- gallery section ends -->
+
+<!-- review section starts  -->
+<section class="review" id="review">
+    <h1 class="heading">
+        <span>r</span>
+        <span>e</span>
+        <span>v</span>
+        <span>i</span>
+        <span>e</span>
+        <span>w</span>
+    </h1>
+    <div class="swiper-container review-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="photos/image1.jfif" alt="">
+                    <h3>Hritik </h3>
+                    <p>Interesting and filled with things to do. It was really nice to have such a structured holiday where everything was planned out for us. The crew were welcoming and helpful and the food provided was delicious. Everything was very well prepared and planned and the two tour guides were so helpful and informative. Excellent.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="photos/image2.jfif" alt="">
+                    <h3>lokeshwar</h3>
+                    <p>Interesting and filled with things to do. It was really nice to have such a structured holiday where everything was planned out for us. The crew were welcoming and helpful and the food provided was delicious. Everything was very well prepared and planned and the two tour guides were so helpful and informative. Excellent</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="photos/image3.jfif" alt="">
+                    <h3>sijo</h3>
+                    <p>Interesting and filled with things to do. It was really nice to have such a structured holiday where everything was planned out for us. The crew were welcoming and helpful and the food provided was delicious. Everything was very well prepared and planned and the two tour guides were so helpful and informative. Excellent</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- review section ends -->
+
+<!-- contact section starts  -->
+<section class="contact" id="contact">
+    <h1 class="heading">
+        <span>c</span>
+        <span>o</span>
+        <span>n</span>
+        <span>t</span>
+        <span>a</span>
+        <span>c</span>
+        <span>t</span>
+    </h1>
+    <div class="row">
+        <div class="image">
+            <img src="photos/contactimage.jfif" alt="">
+        </div>
+        <form action="">
+            <div class="inputBox">
+                <input type="text" placeholder="name">
+                <input type="email" placeholder="email">
+            </div>
+            <div class="inputBox">
+                <input type="number" placeholder="number">
+                <input type="text" placeholder="subject">
+            </div>
+            <textarea placeholder="message" name="" id="" cols="30" rows="10"></textarea>
+            <input type="submit" class="btn" value="send message">
+        </form>
+    </div>
+</section>
+<!-- contact section ends -->
+
+
+<!-- footer section  -->
+<section class="footer">
+    <div class="box-container">
+        <div class="box">
+            <h3>about us</h3>
+            <p>GRACE TRAVEL<br>
+                <br>
+                “Travel is the main thing you purchase that makes you more extravagant”. <br> We, at ‘Grace Travel’, swear by this and put stock in satisfying travel dreams that make you perpetually rich constantly.</p>
+        </div>
+        <div class="box">
+            <h3>branch locations</h3>
+            <a href="#">kochi</a>
+            <a href="#">idukki</a>
+            <a href="#">wayanad</a>
+            <a href="#">malapuram</a>
+        </div>
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#home">home</a>
+            <a href="#book">book</a>
+            <a href="#packages">packages</a>
+            <a href="#services">services</a>
+            <a href="#gallery">gallery</a>
+            <a href="#review">review</a>
+            <a href="#contact">contact</a>
+        </div>
+        <div class="box">
+            <h3>follow us</h3>
+            <a href="#">facebook</a>
+            <a href="#">instagram</a>
+            <a href="#">twitter</a>
+            <a href="#">linkedin</a>
+        </div>
+    </div>
+    <h1 class="credit"> copyright owned by <span> Graceson j  </span> © all rights reserved! </h1>
+</section>
+</body>
+</html>
